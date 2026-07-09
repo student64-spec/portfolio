@@ -1,13 +1,162 @@
 <!DOCTYPE html>
-<html>
+<html lang="th">
 <head>
-    <title>Portfolio ครูชมพูนุท</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portfolio | หน้าหลัก</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body bgcolor="#FFFF99">
-<h1>หน้าหลัก</h1>
-<a href="personal.html">ประวัติส่วนตัว</a>
-<a href="education.html">ประวัติการศึกษา</a>
-<a href="activities.html">ผลงานหรือกิจกรรม</a>
-<a href="contact.html">ช่องทางการติดต่อ</a>
+
+<body>
+
+<!-- =================== NAVBAR =================== -->
+
+<header>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            Portfolio
+        </div>
+
+        <ul class="menu">
+
+            <li><a href="index.html" class="active">หน้าหลัก</a></li>
+
+            <li><a href="personal.html">ประวัติส่วนตัว</a></li>
+
+            <li><a href="education.html">ประวัติการศึกษา</a></li>
+
+            <li><a href="activities.html">ผลงาน</a></li>
+
+            <li><a href="contact.html">ติดต่อ</a></li>
+
+        </ul>
+
+    </nav>
+
+</header>
+
+<!-- =================== HERO =================== -->
+
+<section class="hero">
+
+    <div class="hero-text">
+
+        <h3>สวัสดีค่ะ 👋</h3>
+
+        <h1>
+            ฉันคือ<br>
+            <span>ชื่อ - นามสกุล</span>
+        </h1>
+
+        <p>
+            นักเรียนชั้นมัธยมศึกษาปีที่ 6
+            ผู้มีความสนใจด้านเทคโนโลยี
+            การเขียนโปรแกรม และการออกแบบ
+        </p>
+
+        <div class="button-group">
+
+            <a href="personal.html" class="btn">
+                เกี่ยวกับฉัน
+            </a>
+
+            <a href="activities.html" class="btn btn2">
+                ผลงาน
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="hero-image">
+
+        <img src="images/profile.png" alt="Profile">
+
+    </div>
+
+</section>
+
+<!-- =================== จุดเด่น =================== -->
+
+<section class="skills">
+
+    <h2>จุดเด่นของฉัน</h2>
+
+    <div class="card-container">
+
+        <div class="card">
+            <i class="fa-solid fa-laptop-code"></i>
+            <h3>Programming</h3>
+            <p>สามารถพัฒนาเว็บไซต์และเขียนโปรแกรมได้</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-lightbulb"></i>
+            <h3>Creative</h3>
+            <p>คิดสร้างสรรค์และออกแบบผลงานได้</p>
+        </div>
+
+        <div class="card">
+            <i class="fa-solid fa-users"></i>
+            <h3>Teamwork</h3>
+            <p>สามารถทำงานร่วมกับผู้อื่นได้ดี</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =================== ผลงาน =================== -->
+
+<section class="portfolio">
+
+    <h2>ผลงานเด่น</h2>
+
+    <div class="portfolio-grid">
+
+        <div class="work">
+            <img src="images/activity1.jpg">
+        </div>
+
+        <div class="work">
+            <img src="images/activity2.jpg">
+        </div>
+
+        <div class="work">
+            <img src="images/activity3.jpg">
+        </div>
+
+    </div>
+
+    <a href="activities.html" class="btn">
+        ดูผลงานทั้งหมด
+    </a>
+
+</section>
+
+<!-- =================== Footer =================== -->
+
+<footer>
+
+    <p>
+        © 2026 My Portfolio
+    </p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
 </body>
 </html>
